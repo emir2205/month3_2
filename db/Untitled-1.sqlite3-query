@@ -1,0 +1,9 @@
+-- database: ./todo.db
+
+-- Чтобы выполнить весь файл, нажмите кнопку ▷ в правом верхнем углу окна.
+
+SELECT * FROM tasks;
+
+INSERT INTO tasks (task) VALUES ('Zadacha');
+
+UPDATE tasks SET task = 'Another' WHERE id = 1;
